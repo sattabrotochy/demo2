@@ -32,6 +32,9 @@ public class ImageOptionAdapter extends ArrayAdapter<ImageOption> {
             view = LayoutInflater.from(mContext).inflate(R.layout.image_option_dropdown_item, parent, false);
         }
 
+
+
+
         ImageView imageView = view.findViewById(R.id.image_view);
         TextView nameView = view.findViewById(R.id.name_view);
 
